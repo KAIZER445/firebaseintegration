@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="25dp">
 
     <EditText
         android:id="@+id/editTextName"
-        android:layout_width="300dp"
-        android:layout_height="39dp"
+        android:layout_width="293dp"
+        android:layout_height="75dp"
         android:layout_marginTop="50dp"
         android:ems="10"
         android:hint="please enter your name"
@@ -30,4 +31,13 @@
         app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="298dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="241dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
